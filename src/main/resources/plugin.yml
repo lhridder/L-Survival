@@ -8,7 +8,6 @@ api-version: 1.16
 commands:
  gamemode:
   aliases: gm
-  usage: "Usage: /<command> [survival|creative|adventure|spectator|0|1|2|3] ([player])"
  minigames:
   usage: "/<command>"
  lobby:
@@ -29,9 +28,7 @@ commands:
   usage: "/<command>"
  vanish:
   aliases: v
-  usage: "/<command>"
- set:
-  usage: "/<command> [player] [string]"
  playtime:
   aliases: pt
-  usage: "/<command> (player)"
+ setrank:
+  usage: "/<command>"
